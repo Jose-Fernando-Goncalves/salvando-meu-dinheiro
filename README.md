@@ -1,4 +1,4 @@
-# Salvando Meu Dinheiro 🐷
+# Salvando Meu Dinheiro
 
 App web de finanças pessoais. Registre receitas e despesas, monte uma carteira de ações da B3 com cotação em tempo real e peça uma análise da IA com sugestões de corte de gastos, leitura da saúde financeira e alertas de volatilidade.
 
@@ -42,8 +42,6 @@ Todo o estado financeiro passa por um único contexto React (`FinanceContext`), 
 - **Nenhum dado do usuário sai do navegador.** Não há banco nem conta: os lançamentos vivem só no `localStorage`. O Worker apenas repassa números agregados para a IA na hora de analisar.
 
 ## Rodando localmente
-
-Quem for rodar usa as **próprias chaves** — não há nenhuma credencial no repositório.
 
 ```bash
 npm install
