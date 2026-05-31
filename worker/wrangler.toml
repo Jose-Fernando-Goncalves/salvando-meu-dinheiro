@@ -1,0 +1,12 @@
+name = "smd-ai-proxy"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+# Origem do site em produção (CORS). Em dev pode deixar comentado (default "*").
+# Ao publicar o front, descomente e troque pela URL final do site:
+# [vars]
+# ALLOWED_ORIGIN = "https://seu-usuario.github.io"   # ou o domínio do Pages/Vercel
+
+# Secrets (nunca no código — configurar via CLI):
+#   wrangler secret put GEMINI_API_KEY
+#   wrangler secret put BRAPI_TOKEN
