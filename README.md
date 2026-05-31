@@ -31,9 +31,7 @@ Carteira de investimentos com cotação ao vivo:
 ## Stack
 
 - Vite + React 19
-- Tailwind CSS v3 (+ plugin `typography`)
-- Recharts — gráficos de pizza e de evolução
-- Lucide React (ícones) e react-markdown (relatório da IA)
+- Tailwind CSS v3
 - Cloudflare Worker — proxy do Google Gemini (análise) e da brapi.dev (cotações da B3)
 
 ## Arquitetura
