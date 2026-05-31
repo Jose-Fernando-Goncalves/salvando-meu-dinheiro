@@ -1,8 +1,12 @@
 # Salvando Meu Dinheiro
 
+**Demo:** https://salvando-meu-dinheiro.vercel.app
+
 App web de finanças pessoais. Registre receitas e despesas, monte uma carteira de ações da B3 com cotação em tempo real e peça uma análise da IA com sugestões de corte de gastos, leitura da saúde financeira e alertas de volatilidade.
 
 Tudo do usuário fica no `localStorage` do navegador — sem conta, sem login, sem backend de dados. As chaves de API ficam escondidas atrás de um Cloudflare Worker e nunca chegam ao navegador.
+
+![Painel](docs/painel.png)
 
 ## Funcionalidades
 
@@ -15,6 +19,16 @@ Quatro abas, mais um chat:
 - **Chat** — tira dúvidas sobre as finanças usando o mesmo contexto da análise.
 
 Dinheiro é formatado em real e percentuais com helper próprio. Texto e categorias em português.
+
+## Telas
+
+Lançamentos com o assistente de IA respondendo sobre os gastos:
+
+![Lançamentos e análise por IA](docs/lancamentos-ia.png)
+
+Carteira de investimentos com cotação ao vivo:
+
+![Investimentos](docs/investimentos.png)
 
 ## Stack
 
