@@ -40,7 +40,7 @@ Carteira de investimentos com cotação ao vivo:
 
 ```
 Navegador (Vite/React)  ──►  Cloudflare Worker  ──►  Gemini API   (POST /analyze)
-   localStorage                 (chaves aqui)    └─►  brapi.dev    (GET /quote, /history, /search)
+                                                └─►  brapi.dev    (GET /quote, /history, /search)
 ```
 
 Todo o estado financeiro passa por um único contexto React (`FinanceContext`), que guarda transações e investimentos, deriva os totais e persiste cada fatia no `localStorage`. As cotações ficam de fora do contexto: são buscadas sob demanda e nunca salvas. O front só conhece a URL do Worker — toda chamada externa passa por ele.
