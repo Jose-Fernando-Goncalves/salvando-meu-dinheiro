@@ -4,8 +4,6 @@
 
 App web de finanças pessoais. Registre receitas e despesas, monte uma carteira de ações da B3 com cotação em tempo real e peça uma análise da IA com sugestões de corte de gastos, leitura da saúde financeira e alertas de volatilidade.
 
-Tudo do usuário fica no `localStorage` do navegador — sem conta, sem login, sem backend de dados. As chaves de API ficam escondidas atrás de um Cloudflare Worker e nunca chegam ao navegador.
-
 ![Painel](docs/painel.png)
 
 ## Funcionalidades
